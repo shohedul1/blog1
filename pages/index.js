@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import SiteHeader from '../components/SiteHeader';
 import Link from 'next/link';
-import Index from './page';
 
 
 
