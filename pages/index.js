@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import SiteHeader from '../components/SiteHeader';
 import Link from 'next/link';
+import Index from './page';
 
 
 
@@ -25,6 +26,9 @@ export default function Home() {
           </div>
         </main>
      </div>
+     <section className='container mx-auto lg:max-w-5xl post-list mt-4 '>
+        <Index/>
+     </section>
     
     
      
