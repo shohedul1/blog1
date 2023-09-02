@@ -44,7 +44,7 @@ function Index() {
                               {post.title.rendered}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              <Link href={`/blog/${post.id}`}>
+                              <Link href={`/page/${post.id}`}>
                                 <span dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></span>
                               </Link>
                             </Typography>
